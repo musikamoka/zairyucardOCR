@@ -14,5 +14,7 @@
 ＊＊＊＊＊＊こちらMITと日本知的財産の法律を応用されていますので、著者を明記せずに使用する場合、または違法な目的で使用する場合はご注意ください。＊＊＊<br>
 ＊＊＊＊＊＊This is based on the laws of MIT and Japanese intellectual property. Please be careful if you use it without specifying the author, or if you use it for illegal purposes.＊＊＊<br>
 ＊＊＊＊＊＊本内容适用于MIT及日本知识产权法，请注意，如在未注明作者的情况下使用，或用于非法目的，需谨慎。＊＊＊<br>
+![image](https://github.com/user-attachments/assets/56fa4992-2229-4b7a-a489-b9a5cc0e67a7)
+
 ![image](https://github.com/user-attachments/assets/39034d26-3b9b-41a6-83f0-0605c3ec302a)
 
