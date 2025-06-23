@@ -1,0 +1,4 @@
+torch
+transformers
+Pillow
+deepseek-vl2 @ git+https://github.com/deepseek-ai/DeepSeek-VL2
