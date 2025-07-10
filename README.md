@@ -4,6 +4,11 @@
 そしたら　おすすめ環境はGoogle Colab PROプラン<br>
 ＞＞＞＞＞Google Colab PRO＜＜＜＜<br>
 ファイルは　”zairyucardOCRbyDAIICHI23TE465ZHA.ipynb　”　ご覧ください<br>
+正解バッジョンｖ２<br>
+正解率： 88.46%。<br>
+全部データ：１３０<br>
+正しくないあるいはほか：１５<br>
+
 ＞＞＞＞＞Windows＜＜＜＜<br>
 ファイルは　”zairyu”　ご覧ください<br>
 [--app.py<<<こちらはMain　ソースコードです<br>
@@ -19,3 +24,7 @@
 
 ![image](https://github.com/user-attachments/assets/39034d26-3b9b-41a6-83f0-0605c3ec302a)
 
+正解バッジョンｖ２
+正解率： 88.46%。
+全部データ：１３０
+正しくないあるいはほか：１５
