@@ -1,4 +1,21 @@
-torch
-transformers
-Pillow
-deepseek-vl2 @ git+https://github.com/deepseek-ai/DeepSeek-VL2
+# 1. 创建新环境
+python -m venv deepseek_clean
+deepseek_clean\Scripts\activate
+
+# 2. 升级 pip
+pip install --upgrade pip
+
+# 3. 先装 typing-extensions（避免冲突）
+pip install typing-extensions==4.12.2
+
+# 4. 安装 PyTorch (CUDA 12.8 版本)
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+
+# 5. 安装项目依赖
+pip install transformers==4.38.2 timm accelerate sentencepiece attrdict einops "numpy<2.0.0"
+
+# 6. 安装 DeepSeek-VL2
+pip install git+https://github.com/deepseek-ai/DeepSeek-VL2.git
+
+# 7. 运行
+python app.py
