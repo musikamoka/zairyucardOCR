@@ -15,7 +15,14 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 pip install transformers==4.38.2 timm accelerate sentencepiece attrdict einops "numpy<2.0.0"
 
 # 6. 安装 DeepSeek-VL2
-pip install git+https://github.com/deepseek-ai/DeepSeek-VL2.git
+pip install git+https://github.com/deepseek-ai/DeepSeek-VL2.git --no-deps
+
 
 # 7. 运行
 python app.py
+
+
+?如何使用
+cd C:\路径\到\deepseek_clean
+deepseek_clean\Scripts\activate
+激活后命令行前面会出现 (deepseek_clean)，说明环境已启用。
