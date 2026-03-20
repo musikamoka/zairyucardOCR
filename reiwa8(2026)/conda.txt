@@ -1,0 +1,2 @@
+conda create -n deepseek-ocr python=3.12.9
+conda activate deepseek-ocr
