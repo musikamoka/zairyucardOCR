@@ -1,8 +1,12 @@
 # zairyucardOCR
 
-#令和８年３月２０日の更新#
-１００％正解率
-＃＃over##
+#令和８年３月２０日の更新#<br>
+１００％正解率<br>
+
+<img width="549" height="914" alt="image" src="https://github.com/user-attachments/assets/be4816f1-f603-4743-8386-d497bf8bb69a" />
+
+
+＃＃over##<br>
 このコードは、現実世界で日本の在留カードの写真撮影後、画像内の情報から在留カードの各種情報を抽出するものです。これにより、銀行、クレジットカード、学校などへの情報入力が容易になり、
 手動入力の必要なく、オフラインで直接CSVファイルに変換できます。推奨構成：GPU:A100、RAM:12GB以上、CPU:8コア8スレッド<br>
 そしたら　おすすめ環境はGoogle Colab PROプラン<br>
