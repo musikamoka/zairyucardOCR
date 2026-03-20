@@ -4,6 +4,7 @@
 １００％正解率<br>
 
 <img width="549" height="914" alt="image" src="https://github.com/user-attachments/assets/be4816f1-f603-4743-8386-d497bf8bb69a" />
+![zairyu-card-1](https://github.com/user-attachments/assets/dfe4d074-26e8-4e8a-ae1b-a7de97abd2e3)
 
 
 ＃＃over##<br>
