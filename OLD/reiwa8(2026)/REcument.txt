@@ -1,0 +1,10 @@
+# 安装 PyTorch（CUDA 11.8 版本）
+pip install torch==2.6.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# 安装其他依赖
+pip install transformers==4.46.3
+pip install tokenizers==0.20.3
+pip install einops addict easydict
+
+# 安装 Flash Attention（耗时较长，需要编译）
+pip install flash-attn==2.7.3 --no-build-isolation
