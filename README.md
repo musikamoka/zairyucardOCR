@@ -1,41 +1,17 @@
-# zairyucardOCR
 
-#令和８年３月２０日の更新#<br>
-１００％正解率<br>
-
-<img width="549" height="914" alt="image" src="https://github.com/user-attachments/assets/be4816f1-f603-4743-8386-d497bf8bb69a" />
-![zairyu-card-1](https://github.com/user-attachments/assets/dfe4d074-26e8-4e8a-ae1b-a7de97abd2e3)
+私は現在、非常に完成度の高い最終版を作り上げました。おそらく今後はほとんど修正する必要がないと思います。主に Windows 上で WSL を使用して Linux システムを実行する形にしたことで、処理速度と認識精度がさらに向上しました。
+さらに、AI によって自動的に領域を選択し、その領域を切り出して認識精度を高める仕組みも自作しました。
+現在のコード行数は 2,229 行です。
 
 
-＃＃over##<br>
-このコードは、現実世界で日本の在留カードの写真撮影後、画像内の情報から在留カードの各種情報を抽出するものです。これにより、銀行、クレジットカード、学校などへの情報入力が容易になり、
-手動入力の必要なく、オフラインで直接CSVファイルに変換できます。推奨構成：GPU:A100、RAM:12GB以上、CPU:8コア8スレッド<br>
-そしたら　おすすめ環境はGoogle Colab PROプラン<br>
+対象枚数：83 枚
 
-＞＞＞＞＞Google Colab PRO＜＜＜＜<br>
-ファイルは　”zairyucardOCRbyDAIICHI23TE465ZHA.ipynb　”　ご覧ください<br>
-正解バッジョンｖ２<br>
-正解率： 88.46%。<br>
-全部データ：１３０<br>
-正しくないあるいはほか：１５<br>
+平均処理時間：6.9 秒／枚
 
-＞＞＞＞＞Windows＜＜＜＜<br>
-ファイルは　”zairyu”　ご覧ください<br>
-[--app.py<<<こちらはMain　ソースコードです<br>
-[--extract_fields.py<br>
-[--model_runner.py<br>
-必要環境はDeepSeeK Vl2です<br>
+最短処理時間：5.4 秒
 
-＊＊＊但しこのコードはCPU使えだけです、制限tokenは３００。自分のcpuはi9 12900Kfなので、写真解析は３０秒が必要（16C24T）＊＊＊<br>
-＊＊＊＊＊＊こちらMITと日本知的財産の法律を応用されていますので、著者を明記せずに使用する場合、または違法な目的で使用する場合はご注意ください。＊＊＊<br>
-＊＊＊＊＊＊This is based on the laws of MIT and Japanese intellectual property. Please be careful if you use it without specifying the author, or if you use it for illegal purposes.＊＊＊<br>
-＊＊＊＊＊＊本内容适用于MIT及日本知识产权法，请注意，如在未注明作者的情况下使用，或用于非法目的，需谨慎。＊＊＊<br>
-![image](https://github.com/user-attachments/assets/56fa4992-2229-4b7a-a489-b9a5cc0e67a7)
-![QQ_1750697498283](https://github.com/user-attachments/assets/abc04888-baba-4d46-b5d0-0264b5289811)
+最長処理時間：16.9 秒
 
-![image](https://github.com/user-attachments/assets/39034d26-3b9b-41a6-83f0-0605c3ec302a)
+CER：0.06
 
-正解バッジョンｖ２
-正解率： 88.46%。
-全部データ：１３０
-正しくないあるいはほか：１５
+正規化後の正解率：96.1％（747 項目）
